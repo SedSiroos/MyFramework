@@ -3,8 +3,9 @@ using Framework.Domain;
 
 namespace DomainEvent.Model;
 
-public class Person : Entity<long>
+public class Person : Entity
 {
+    public long Id { get; private set; }
     public string Name { get; private set; }
     public string Family { get; private set; }
 

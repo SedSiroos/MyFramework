@@ -1,5 +1,6 @@
 ﻿using DomainEvent.Core;
 using DomainEvent.Model;
+using Framework.Domain;
 using Microsoft.EntityFrameworkCore;
 
 namespace DomainEvent.Services;
@@ -7,13 +8,11 @@ namespace DomainEvent.Services;
 public class PersonServices
 {
     private readonly DomainEventContext _context;
-
     public PersonServices(DomainEventContext context)
     {
         _context = context;
     }
-
-
+    
     public async Task CreatePerson(string name,string family)
     {
         var newPerson = new Person(name,family);
@@ -33,5 +32,4 @@ public class PersonServices
         person.ChangeNameEntity(family);
         await _context.SaveChangesAsync();
     }
-
 }

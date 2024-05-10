@@ -11,6 +11,5 @@ public class Createdperson : IDomainEvent
     {
         Name = name;
         Family = family;
-        Createdperson @event = new(Name, Family);
     }
 }
