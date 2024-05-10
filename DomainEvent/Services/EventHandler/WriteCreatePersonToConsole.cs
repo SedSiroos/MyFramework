@@ -6,9 +6,10 @@ namespace DomainEvent.Services.EventHandler;
 
 public class WriteCreatePersonToConsole : IDomainEventHandler<Createdperson>
 {
-    public async Task Handle(Createdperson domainEvent)
+    public Task Handle(Createdperson domainEvent)
     {
         var str = JsonConvert.SerializeObject(domainEvent);
         Console.WriteLine(str);
+        return Task.CompletedTask;
     }
 }
