@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "sj+YLalmGs/cuCqFZ940ze8PJUoy9p7I5bxPPLqAFiKIFyGaLhaYV8he0md3GiQSVBchLFwzTH7/T8PhAssASA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\s.ghalyani\\Desktop\\MyFrameWork\\MyFramework\\Framework\\Framework.Domain\\Framework.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\s.ghalyani\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\s.ghalyani\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\s.ghalyani\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\s.ghalyani\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\s.ghalyani\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\s.ghalyani\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}
