@@ -2,6 +2,7 @@
 using Framework.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Newtonsoft.Json;
 
 namespace DomainEvent.Core;
 
@@ -38,9 +39,39 @@ public class DomainEventContext : DbContext
 
     private void HandleBeforeSaveChanges()
     {
+        AddToOutBox();
         DispatchEvents();
     }
 
+
+    private void AddToOutBox()
+    {
+        var entities = ChangeTracker.Entries<Entity>()
+            .Where(x => x.State is EntityState.Added or EntityState.Modified)
+            .Select(x => x.Entity).ToList();
+
+        var dateTime = DateTime.Now;
+        foreach (var entity in entities)
+        {
+            foreach (var @event in entity.Events)
+            {
+                OutBoxEvent.Add(new OutBoxEventItem
+                {
+                    EventId = Guid.NewGuid(),
+                    AccuredUserId = Guid.NewGuid().ToString(),
+                    AccuredOn = dateTime,
+                    AggragateId = Guid.NewGuid().ToString(),
+                    AggragateName = entity.GetType().Name,
+                    AggragateTypeName = entity.GetType().FullName,
+                    EventName = @event.GetType().Name,
+                    EventTypeName = @event.GetType().FullName,
+                    EventPayload = JsonConvert.SerializeObject(@event),
+                    IsProcessed = false
+                });
+            }
+        }
+    }
+    
     private void DispatchEvents()
     {
         var dispatch = this.GetService<IDomainEventDispatcher>();
