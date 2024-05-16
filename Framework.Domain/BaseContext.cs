@@ -1,17 +1,15 @@
-﻿using DomainEvent.Model;
-using Framework.Domain;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Newtonsoft.Json;
 
-namespace DomainEvent.Core;
+namespace Framework.Domain;
 
-public class DomainEventContext : DbContext
+public class BaseContext : DbContext
 {
-    public DbSet<Person> People { get; set; }
     public DbSet<OutBoxEventItem> OutBoxEvent { get; set; }
     
-    public DomainEventContext(DbContextOptions<DomainEventContext> options):base(options){}
+    public BaseContext(DbContextOptions options):base(options){}
+    
     
     public override int SaveChanges()
     {

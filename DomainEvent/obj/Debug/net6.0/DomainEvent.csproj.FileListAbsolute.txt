@@ -1,8 +1,0 @@
-C:\Users\Sedsiroos\Desktop\MyFramework\MyFramework\DomainEvent\obj\Debug\net6.0\DomainEvent.csproj.AssemblyReference.cache
-C:\Users\Sedsiroos\Desktop\MyFramework\MyFramework\DomainEvent\obj\Debug\net6.0\DomainEvent.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Sedsiroos\Desktop\MyFramework\MyFramework\DomainEvent\obj\Debug\net6.0\DomainEvent.AssemblyInfoInputs.cache
-C:\Users\Sedsiroos\Desktop\MyFramework\MyFramework\DomainEvent\obj\Debug\net6.0\DomainEvent.AssemblyInfo.cs
-C:\Users\Sedsiroos\Desktop\MyFramework\MyFramework\DomainEvent\obj\Debug\net6.0\DomainEvent.csproj.CoreCompileInputs.cache
-C:\Users\Sedsiroos\Desktop\MyFramework\MyFramework\DomainEvent\obj\Debug\net6.0\DomainEvent.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Sedsiroos\Desktop\MyFramework\MyFramework\DomainEvent\obj\Debug\net6.0\DomainEvent.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Sedsiroos\Desktop\MyFramework\MyFramework\DomainEvent\obj\Debug\net6.0\DomainEvent.sourcelink.json
