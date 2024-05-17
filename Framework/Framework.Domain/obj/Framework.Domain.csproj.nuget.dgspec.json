@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s.ghalyani\\Desktop\\MyFrameWork\\MyFramework\\Framework\\Framework.Domain\\Framework.Domain.csproj": {}
+    "C:\\Users\\Sedsiroos\\Desktop\\DomainEventSample\\MyFramework\\Framework\\Framework.Domain\\Framework.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s.ghalyani\\Desktop\\MyFrameWork\\MyFramework\\Framework\\Framework.Domain\\Framework.Domain.csproj": {
+    "C:\\Users\\Sedsiroos\\Desktop\\DomainEventSample\\MyFramework\\Framework\\Framework.Domain\\Framework.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s.ghalyani\\Desktop\\MyFrameWork\\MyFramework\\Framework\\Framework.Domain\\Framework.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Sedsiroos\\Desktop\\DomainEventSample\\MyFramework\\Framework\\Framework.Domain\\Framework.Domain.csproj",
         "projectName": "Framework.Domain",
-        "projectPath": "C:\\Users\\s.ghalyani\\Desktop\\MyFrameWork\\MyFramework\\Framework\\Framework.Domain\\Framework.Domain.csproj",
-        "packagesPath": "C:\\Users\\s.ghalyani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s.ghalyani\\Desktop\\MyFrameWork\\MyFramework\\Framework\\Framework.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Sedsiroos\\Desktop\\DomainEventSample\\MyFramework\\Framework\\Framework.Domain\\Framework.Domain.csproj",
+        "packagesPath": "C:\\Users\\Sedsiroos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sedsiroos\\Desktop\\DomainEventSample\\MyFramework\\Framework\\Framework.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\s.ghalyani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sedsiroos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://someServer/myTeam": {}
+          "https://git-neo.hooshmandsepehrco.com/api/v4/projects/64/packages/nuget/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -44,9 +46,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -60,26 +70,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.422\\RuntimeIdentifierGraph.json"
         }
       }
     }
