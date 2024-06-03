@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cj+0saBZ/wGBLo5iPMeGwuCPNGUH2oA9UzmEjGJLyKD3kIjJl+Lc95AhGZhMmGAi+8CB2gyFhYJsDLARfPN6PQ==",
+  "dgSpecHash": "BBXD5XcJDGK4s6EgtkZpPvzVyqkzER5qRkQedRAlKPWBnEL9krpnrDnU0C4N8XpuWuIXmSUIGPCPQmO6a+6ZXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sedsiroos\\Desktop\\MyFramework\\MyFramework\\Framework.Domain\\Framework.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Sedsiroos\\Desktop\\MyFramework\\Framework.Domain\\Framework.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Sedsiroos\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.25\\microsoft.entityframeworkcore.6.0.25.nupkg.sha512",

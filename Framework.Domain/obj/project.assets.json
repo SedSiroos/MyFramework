@@ -3292,11 +3292,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sedsiroos\\Desktop\\MyFramework\\MyFramework\\Framework.Domain\\Framework.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Sedsiroos\\Desktop\\MyFramework\\Framework.Domain\\Framework.Domain.csproj",
       "projectName": "Framework.Domain",
-      "projectPath": "C:\\Users\\Sedsiroos\\Desktop\\MyFramework\\MyFramework\\Framework.Domain\\Framework.Domain.csproj",
+      "projectPath": "C:\\Users\\Sedsiroos\\Desktop\\MyFramework\\Framework.Domain\\Framework.Domain.csproj",
       "packagesPath": "C:\\Users\\Sedsiroos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sedsiroos\\Desktop\\MyFramework\\MyFramework\\Framework.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Sedsiroos\\Desktop\\MyFramework\\Framework.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3360,7 +3360,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.105\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106\\RuntimeIdentifierGraph.json"
       }
     }
   },
